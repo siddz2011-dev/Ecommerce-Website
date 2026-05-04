@@ -420,12 +420,40 @@ ul{
         display: block;
         cursor: pointer;
     }
-    .about{
-        background-color: #1e293b;
-        color:white;
-        padding:40px;
-        text-align:center;
-        margin-top:40px;
-        border-radius:10px;
-    }
+  .about-wrapper {
+  min-height: 100vh;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
+
+.about-card {
+  background: #1e293b !important;
+  padding: 40px !important;
+  border-radius: 15px !important;
+  text-align: center !important;
+  width: 420px !important;
+  max-width: 90% !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
+  margin: auto !important;
+}
+
+.about-card h1 { margin-bottom: 10px; }
+.about-card h2 { color: #38bdf8; margin-bottom: 15px; }
+
+.social a {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 15px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.social a:hover { background: #1e40af; }
+
+/* reset interfering styles */
+body { margin: 0 !important; }
+
+body { background: red !important; }
+    }
