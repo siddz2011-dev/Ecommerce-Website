@@ -5,6 +5,8 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #0f172a;
+    color:white;
 }
 
 .navbar{
@@ -417,5 +419,13 @@ ul{
     .menu-icon{
         display: block;
         cursor: pointer;
+    }
+    .about{
+        background-color: #1e293b;
+        color:white;
+        padding:40px;
+        text-align:center;
+        margin-top:40px;
+        border-radius:10px;
     }
 }
